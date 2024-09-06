@@ -425,31 +425,28 @@ screen and (max-width: 768px) {
 
 
 /* img side by side  */
-
-.row {
-  display: flex;
-
-
-}
-
-.column1 {
-  margin-bottom: 112px;
-  padding-left: 27%;
-  padding-right: 103px;
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three equal columns */
+  justify-content: center; /* Centers the grid container horizontally */
+  max-width: 780px; /* Adjust this value to suit your layout */
+  margin: 0 auto; /* Centers the container itself */
 
 }
 
-.column2 {
-  margin-bottom: 112px;
-  padding-right: 103px;
+.container > div {
+  text-align: center; /* Centers text within each grid cell */
 }
 
-.column3 {
-  margin-bottom: 112px;
-  padding-right: 20%;
+.container img {
+  width: 156px;
+  height: 156px;
+  border-radius: 10px;
 }
-
-.columntext {
-  margin-top: 48px;
-  text-align: center;
+@media only screen and (max-width: 600px) {
+  /*Small smartphones [325px -> 425px]*/
+  .container {
+    display: block;
+  
+  }
 }
