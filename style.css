@@ -189,7 +189,9 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 400;
   font-size: 30px;
-  margin-top: 65px;
+  margin-top: 72px;
+  letter-spacing: 4px;
+  margin-bottom: 21px;
 }
 .bandp{
   text-align: center;
@@ -201,7 +203,7 @@ body {
 }
 .bandpa
 {
-text-align: left;
+  text-align: justify;
 
 padding-left: 22%;
 padding-right: 20%;
