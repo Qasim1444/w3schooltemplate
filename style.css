@@ -383,6 +383,44 @@ screen and (max-width: 768px) {
   font-size: 15px;
   line-height: 23px;
 }
+@media only screen and (max-width: 1000px) {
+
+  /*Small smartphones [325px -> 425px]*/
+  .bandpa {
+    padding-left: 10%;
+    padding-right:10%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  /*Small smartphones [325px -> 425px]*/
+  .bandpa {
+    padding-left: 6.5%;
+    padding-right:6.5%;
+  }
+}
+@media only screen and (max-width: 800px) {
+
+  /*Small smartphones [325px -> 425px]*/
+  .bandpa {
+    padding-left: 2%;
+    padding-right:2%;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  /*Small smartphones [325px -> 425px]*/
+  .bandpa {
+    padding-left: 2.5%;
+    padding-right:2.5%;
+    font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  
+  }
+}
 
 
 
