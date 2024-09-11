@@ -452,13 +452,10 @@ screen and (max-width: 768px) {
 }
 
 .black {
-  background-color: #000000;
-  color: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
-  min-height: 100vh; /* Full viewport height */
+background-color:black;
+color: white;
+position: relative; /* Center vertically */
+   height: 700px; /* Full viewport height */
   padding: 20px;
   text-align: center;
 }
@@ -488,19 +485,18 @@ screen and (max-width: 768px) {
 .centered-list {
   list-style-type: none; /* Remove default list bullets */
   padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center list items horizontally */
-  width: 100%; /* Full width of the container */
+  margin: 0 auto;
+ 
+
   max-width: 766px; /* Maximum width for better readability */
 }
 
 /* List item styling */
 .centered-list li {
+  display: inline-block;
   border-bottom: 1px solid #DDDDDD;
   background-color: #FFFFFF;
-  color: #333333; /* Darker color for better readability */
+  color: #797979; /* Darker color for better readability */
   width: 100%; /* Full width of the container */
   padding: 0.45rem; /* Added padding for better spacing */
   line-height: 1.5rem; /* Adjusted line-height for better text alignment */
@@ -511,7 +507,7 @@ screen and (max-width: 768px) {
 /* Soldout */
 .Soldout
 {
-  color: #fff !important;
+    color: #fff !important;
     background-color: #f44336 !important;
     margin-left: 16px !important;
     display: inline-block;
@@ -550,40 +546,64 @@ screen and (max-width: 768px) {
 
   
 }
-.cardimg
-{
-  padding: 0 8px;
+  .cardimg
+  {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px;
 
-  float: left;
-  height: 185px;
-    width: 247px;
-}
+
+    height: 185px;
+      width: 247px;
+  }
 .cardtextimg
 {
   color: #000 !important;
   background-color: #fff !important;
-  padding: 0.01em 16px;
+    padding: 0.01em 16px;
   text-align: left;
   font-family: Lato, sans-serif;
-
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
 }
 .cardbutton
 {
-  color: #fff !important;
-    background-color: #000 !important;
-    margin-bottom: 16px !important;
+  color: #fff;
+    background-color: #000 ;
+    margin-bottom: 16px;
 
     border: none;
     display: inline-block;
     padding: 8px 16px;
     vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
+
+
 
     text-align: center;
     cursor: pointer;
-    white-space: nowrap;
-    text-transform: none;
+
+ 
     font-family: Lato, sans-serif;font-weight: 400;font-size: 15px;font-style: normal;line-height: 23px;
 
+}
+.p1{
+  font-family: Lato, sans-serif;font-weight: 400;font-size: 15px;font-style: normal;line-height: 23px;
+}
+.p2
+{
+  opacity: 0.60;font-family: Lato, sans-serif;font-weight: 400;font-size: 15px;font-style: normal;line-height: 23px;
+}
+.p3
+{
+
+  font-family: Lato, sans-serif;font-weight: 400;font-size: 15px;font-style: normal;line-height: 23px;
+}
+.imgsetting
+{
+  width:100%;
+  vertical-align: middle;
+
+    
 }
