@@ -479,7 +479,7 @@ letter-spacing: 6;
   /* Full viewport height */
   padding: 20px;
   text-align: center;
-  padding-bottom: 88px;
+  padding-bottom: 136px;
 }
 
 /* Heading styling */
@@ -491,7 +491,8 @@ letter-spacing: 6;
   letter-spacing: 0.1rem;
   /* More subtle letter spacing */
   margin: 0;
-  padding: 1.5rem 0;
+padding-top: 55px;
+padding-bottom: 26px;
   /* Added padding for spacing */
 }
 
@@ -505,7 +506,7 @@ letter-spacing: 6;
   color: #CCCCCC;
   /* Slightly lighter color for contrast */
   margin: 0;
-  padding-bottom: 1.5rem;
+  padding-bottom: 39px;
   /* Consistent spacing */
 }
 
@@ -581,7 +582,7 @@ letter-spacing: 6;
   display: grid;
   grid-template-columns: repeat(3, auto); /* Create 3 columns with auto width */
   justify-content: center; /* Center the grid items horizontally */
-  gap: 12px; /* Space between the grid items */
+  gap: 16px; /* Space between the grid items */
   padding-top: 32px !important;
   padding-bottom: 32px !important;
 }
