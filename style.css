@@ -988,6 +988,14 @@ margin-left: 310px;
     padding-left: 10px;
   }
 
+  .textboxs {
+    border: 1px solid #ccc !important;
+    width: 578px;
+    height: 36px;
+    padding-left: 10px;
+    
+  }
+
   #textboxleft
   {
     padding: 0;
@@ -1003,5 +1011,12 @@ margin-left: 310px;
   .half {
 width: 100%;
   }
+  .messageboxs {
+    border: 1px solid #ccc !important;
+    width: 575px;
+    height: 36px;
+  margin-top: 8px;
+
   
+  }
 }
