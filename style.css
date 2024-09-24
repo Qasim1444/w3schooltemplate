@@ -380,7 +380,7 @@ screen and (max-width: 768px) {
 
 .bandpa {
   text-align: justify;
-letter-spacing: 6;
+  letter-spacing: 6;
   padding-left: 21.5%;
   padding-right: 21.5%;
   font-family: Lato, sans-serif;
@@ -464,6 +464,7 @@ letter-spacing: 6;
     display: block;
 
   }
+
   .container img {
     width: 338px;
     height: 338px;
@@ -491,8 +492,8 @@ letter-spacing: 6;
   letter-spacing: 0.1rem;
   /* More subtle letter spacing */
   margin: 0;
-padding-top: 55px;
-padding-bottom: 26px;
+  padding-top: 55px;
+  padding-bottom: 26px;
   /* Added padding for spacing */
 }
 
@@ -580,9 +581,12 @@ padding-bottom: 26px;
 
 .threecardimgtext {
   display: grid;
-  grid-template-columns: repeat(3, auto); /* Create 3 columns with auto width */
-  justify-content: center; /* Center the grid items horizontally */
-  gap: 16px; /* Space between the grid items */
+  grid-template-columns: repeat(3, auto);
+  /* Create 3 columns with auto width */
+  justify-content: center;
+  /* Center the grid items horizontally */
+  gap: 16px;
+  /* Space between the grid items */
   padding-top: 32px !important;
   padding-bottom: 32px !important;
 }
@@ -648,29 +652,31 @@ padding-bottom: 26px;
   width: 100%;
   vertical-align: middle;
 }
+
 @media (max-width: 766px) {
-  .threecardimgtext
-  {
-    grid-template-columns: 1fr; /* Stack cards vertically on small screens */
-    padding-top: 16px; /* Adjust padding for smaller screens */
+  .threecardimgtext {
+    grid-template-columns: 1fr;
+    /* Stack cards vertically on small screens */
+    padding-top: 16px;
+    /* Adjust padding for smaller screens */
     padding-bottom: 16px;
-}
-.cardimg {
-  height: 100%;
-  width: 100%;
-}
-.black
-{
-  height: auto;
-}
+  }
+
+  .cardimg {
+    height: 100%;
+    width: 100%;
+  }
+
+  .black {
+    height: auto;
+  }
 
 }
 
 /* contant section */
 
 
-.CONTACT
-  {
+.CONTACT {
   text-align: center;
   margin-top: 74px;
   font-size: 30px;
@@ -690,12 +696,13 @@ padding-bottom: 26px;
   color: #a09b9b;
 
 }
+
 .column {
-  
+
   float: left;
   width: 50%;
 
- 
+
 }
 
 
@@ -710,10 +717,11 @@ padding-bottom: 26px;
 
 .right {
   width: 57%;
-  float: left;  
-  box-sizing: border-box; 
-  
+  float: left;
+  box-sizing: border-box;
+
 }
+
 .half {
 
   width: 49.99999%;
@@ -725,14 +733,14 @@ padding-bottom: 26px;
   border: 1px solid #ccc !important;
   width: 178px;
   height: 36px;
-  
+
 }
 
 .messageboxs {
   border: 1px solid #ccc !important;
   width: 378px;
   height: 36px;
-margin-top: 8px;
+  margin-top: 8px;
 
 
 }
@@ -742,56 +750,46 @@ margin-top: 8px;
 .textboxsbutton {
   color: #fff !important;
   background-color: #000 !important;
-
   margin-top: 16px !important;
   margin-bottom: 16px !important;
-
-
   padding: 8px 16px;
-
-  
- 
-margin-left: 310px;
+  margin-left: 310px;
   text-align: center;
   cursor: pointer;
-
-
 }
 
-#textboxleft
-{
+#textboxleft {
   padding-left: 10px;
 }
 
 @media (max-width: 1200px) {
-  #textboxleft
-  {
+  #textboxleft {
     margin-left: 20px;
   }
- 
+
 
 }
+
 @media (max-width: 1100px) {
-  #textboxleft
-  {
+  #textboxleft {
     margin-left: 35px;
   }
 }
+
 @media (max-width: 1000px) {
-  #textboxleft
-  {
+  #textboxleft {
     margin-left: 50px;
   }
 }
+
 @media (max-width: 900px) {
-  #textboxleft
-  {
+  #textboxleft {
     margin-left: 65px;
   }
 }
+
 @media (max-width: 850px) {
-  #textboxleft
-  {
+  #textboxleft {
     margin-left: 70px;
   }
 }
@@ -801,43 +799,45 @@ margin-left: 310px;
     border: 1px solid #ccc !important;
     width: 153px;
     height: 36px;
-    
+
   }
- 
-  #textboxleft
-  {
+
+  #textboxleft {
     margin-left: 70px;
   }
+
   .left {
     float: left;
     font-size: 15px !important;
     line-height: 20px;
   }
+
   .messageboxs {
     border: 1px solid #ccc !important;
     width: 340px;
     height: 36px;
-  margin-top: 8px;
-  
-  
+    margin-top: 8px;
+
+
   }
+
   .textboxsbutton {
     color: #fff !important;
     background-color: #000 !important;
-  
+
     margin-top: 16px !important;
     margin-bottom: 16px !important;
-  
-  
+
+
     padding: 8px 16px;
-  
-    
-   
-  margin-left: 260px;
+
+
+
+    margin-left: 260px;
     text-align: center;
     cursor: pointer;
-  
-  
+
+
   }
 
 }
@@ -847,43 +847,45 @@ margin-left: 310px;
     border: 1px solid #ccc !important;
     width: 170px;
     height: 36px;
-    
+
   }
- 
-  #textboxleft
-  {
+
+  #textboxleft {
     margin-left: 80px;
   }
+
   .left {
     float: left;
     font-size: 16px !important;
     line-height: 20px;
   }
+
   .messageboxs {
     border: 1px solid #ccc !important;
     width: 365px;
     height: 36px;
-  margin-top: 8px;
-  
-  
+    margin-top: 8px;
+
+
   }
+
   .textboxsbutton {
     color: #fff !important;
     background-color: #000 !important;
-  
+
     margin-top: 16px !important;
     margin-bottom: 16px !important;
-  
-  
+
+
     padding: 8px 16px;
-  
-    
-   
-  margin-left: 300px;
+
+
+
+    margin-left: 300px;
     text-align: center;
     cursor: pointer;
-  
-  
+
+
   }
 
 }
@@ -893,93 +895,99 @@ margin-left: 310px;
     border: 1px solid #ccc !important;
     width: 140px;
     height: 36px;
-    
+
   }
- 
-  #textboxleft
-  {
+
+  #textboxleft {
     margin-left: 60px;
   }
+
   .left {
     float: left;
     font-size: 15px !important;
     line-height: 20px;
     padding-left: 10px;
   }
+
   .messageboxs {
     border: 1px solid #ccc !important;
     width: 300px;
     height: 36px;
-  margin-top: 8px;
-  
-  
+    margin-top: 8px;
+
+
   }
+
   .textboxsbutton {
     color: #fff !important;
     background-color: #000 !important;
-  
+
     margin-top: 16px !important;
     margin-bottom: 16px !important;
-  
-  
+
+
     padding: 8px 16px;
-  
-    
-   
-  margin-left: 230px;
+
+
+
+    margin-left: 230px;
     text-align: center;
     cursor: pointer;
-  
-  
+
+
   }
 
 }
+
 @media (min-width: 600px) and (max-width: 650px) {
   .textboxs {
     border: 1px solid #ccc !important;
     width: 135px;
     height: 36px;
-    
+
   }
- 
-  #textboxleft
-  {
+
+  #textboxleft {
     margin-left: 60px;
   }
+
   .left {
     float: left;
     font-size: 14px !important;
     line-height: 20px;
     padding-left: 10px;
   }
+
   .messageboxs {
     border: 1px solid #ccc !important;
     width: 290px;
     height: 36px;
-  margin-top: 8px;
-  
-  
+    margin-top: 8px;
+
+
   }
+
   .textboxsbutton {
     color: #fff !important;
     background-color: #000 !important;
-  
+
     margin-top: 16px !important;
     margin-bottom: 16px !important;
-  
-  
+
+
     padding: 8px 16px;
-  
-    
-   
-  margin-left: 220px;
+
+
+
+    margin-left: 220px;
     text-align: center;
     cursor: pointer;
-  
-  
+
+
   }
 
 }
+
 @media (min-width: 500px) and (max-width: 600px) {
   .left {
     float: left;
@@ -990,33 +998,218 @@ margin-left: 310px;
 
   .textboxs {
     border: 1px solid #ccc !important;
-    width: 578px;
+    width: 518px;
     height: 36px;
-    padding-left: 10px;
-    
+
+
   }
 
-  #textboxleft
-  {
+  #textboxleft {
     padding: 0;
-    margin: 0;
+    margin-left: 10px;
   }
+
   .textboxs {
     padding: 0;
     margin: 0;
+    margin-left: 10px;
   }
+
   .column {
     width: 100%;
   }
+
   .half {
-width: 100%;
+    width: 100%;
   }
+
   .messageboxs {
     border: 1px solid #ccc !important;
-    width: 575px;
+    width: 515px;
     height: 36px;
-  margin-top: 8px;
+    margin-top: 8px;
+    margin-left: 10px;
 
-  
   }
+  
+.textboxsbutton {
+  color: #fff !important;
+  background-color: #000 !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  padding: 8px 16px;
+  margin-left: 455px;
+  text-align: center;
+  cursor: pointer;
+}
+}
+
+
+@media (min-width: 450px) and (max-width: 519px) {
+  .left {
+    float: left;
+    font-size: 20px !important;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+
+  .textboxs {
+    border: 1px solid #ccc !important;
+    width: 400px;
+    height: 36px;
+
+
+  }
+
+  #textboxleft {
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .textboxs {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .half {
+    width: 100%;
+  }
+
+  .messageboxs {
+    border: 1px solid #ccc !important;
+    width: 395px;
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 10px;
+
+  }
+  
+.textboxsbutton {
+  color: #fff !important;
+  background-color: #000 !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  padding: 8px 16px;
+  margin-left: 340px;
+  text-align: center;
+  cursor: pointer;
+}
+}
+
+
+@media (min-width: 414px) and (max-width: 450px) {
+  .left {
+    float: left;
+    font-size: 20px !important;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+
+  .textboxs {
+    border: 1px solid #ccc !important;
+    width: 400px;
+    height: 36px;
+
+
+  }
+
+  #textboxleft {
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .textboxs {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .half {
+    width: 100%;
+  }
+
+  .messageboxs {
+    border: 1px solid #ccc !important;
+    width: 395px;
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 10px;
+
+  }
+  
+.textboxsbutton {
+  color: #fff !important;
+  background-color: #000 !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  padding: 8px 16px;
+  margin-left: 340px;
+  text-align: center;
+  cursor: pointer;
+}
+}
+
+@media (min-width: 300px) and (max-width: 414px) {
+  .left {
+    float: left;
+    font-size: 16px !important;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+
+  .textboxs {
+    border: 1px solid #ccc !important;
+    width: 300px;
+    height: 36px;
+
+
+  }
+
+  #textboxleft {
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .textboxs {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .half {
+    width: 100%;
+  }
+
+  .messageboxs {
+    border: 1px solid #ccc !important;
+    width: 295px;
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 10px;
+
+  }
+  
+.textboxsbutton {
+  color: #fff !important;
+  background-color: #000 !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  padding: 8px 16px;
+  margin-left: 240px;
+  text-align: center;
+  cursor: pointer;
+}
 }
