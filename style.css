@@ -987,51 +987,21 @@ margin-left: 310px;
     line-height: 30px;
     padding-left: 10px;
   }
-  
-  .textboxs {
-    border: 1px solid #ccc !important;
-    width: 135px;
-    height: 36px;
-    
-  }
- 
+
   #textboxleft
   {
-    margin-left: 60px;
+    padding: 0;
+    margin: 0;
   }
- 
-  .messageboxs {
-    border: 1px solid #ccc !important;
-    width: 290px;
-    height: 36px;
-  margin-top: 8px;
-  
-  
-  }
-  .textboxsbutton {
-    color: #fff !important;
-    background-color: #000 !important;
-  
-    margin-top: 16px !important;
-    margin-bottom: 16px !important;
-  
-  
-    padding: 8px 16px;
-  
-    
-   
-  margin-left: 220px;
-    text-align: center;
-    cursor: pointer;
-  
-  
+  .textboxs {
+    padding: 0;
+    margin: 0;
   }
   .column {
-  
-
     width: 100%;
-  
-   
+  }
+  .half {
+width: 100%;
   }
   
 }
